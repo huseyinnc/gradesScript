@@ -1,0 +1,38 @@
+#bin/bash
+
+read -p "enter your score :" var 
+if [[ $var -gt -1 && $var lt 101 ]]
+
+then
+
+if [ $var -gt 90 ]
+
+then
+
+	echo "AA"
+
+elif [ $var -gt 80 ]
+
+then
+
+	echo "BB"
+
+elif [ $var - gt 70 ] then
+
+	echo "CC"
+
+elif [ $var -gt 60 ]
+
+then
+
+	echo "DD"
+
+else
+	echo "FF"
+
+fi
+	
+else
+	echo "Geçerli skor yazın!"
+
+fi
